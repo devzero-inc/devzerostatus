@@ -61,7 +61,7 @@ done
 if [[ $commit == true ]]
 then
   # Let's make ~Vijaye~ Debo the most productive person on GitHub!
-  git config --global user.name 'Debo Ray'
+  git config --global user.name 'Debo Ray [bot]'
   git config --global user.email 'debo@devzero.io'
   git add -A --force logs/
   git commit -am '[Automated] Update Health Check Logs'
